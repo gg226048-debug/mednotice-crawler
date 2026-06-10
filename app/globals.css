@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Pretendard:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+  --bg:#09090b; --panel:#111113; --card:#18181b; --border:#27272a; --border2:#3f3f46;
+  --text:#e4e4e7; --muted:#71717a; --muted2:#a1a1aa;
+  --accent:#3b82f6; --accent2:#2563eb;
+  --green:#22c55e; --red:#ef4444; --yellow:#f59e0b; --purple:#a78bfa;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{font-family:'Pretendard','Noto Sans KR',-apple-system,sans-serif;background:var(--bg);color:var(--text);min-height:100vh;line-height:1.6;-webkit-font-smoothing:antialiased;}
+a{color:inherit;text-decoration:none;}
+::-webkit-scrollbar{width:6px;}
+::-webkit-scrollbar-track{background:var(--bg);}
+::-webkit-scrollbar-thumb{background:var(--border2);border-radius:3px;}
